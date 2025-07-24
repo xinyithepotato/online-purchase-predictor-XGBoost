@@ -18,7 +18,7 @@ model = joblib.load('xgboost_model.pkl')
 expected_features = joblib.load('model_features.pkl')
 
 st.set_page_config(page_title="Online Purchase Prediction", page_icon="🛒")
-st.title("🛍️ Predict Online Purchase Intention (XGBoost")
+st.title("🛍️ Predict Online Purchase Intention (XGBoost)")
 
 st.markdown("Upload your CSV file containing user behavior data:")
 
